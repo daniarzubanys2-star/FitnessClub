@@ -70,6 +70,6 @@ public class FileTests : IDisposable
         Assert.True(loadResult.IsSuccess);
         Assert.Single(loadResult.Value);
         Assert.Equal(PlanType.Premium, loadResult.Value[0].Plan);
-        Assert.Equal(5, loadResult.Value[0].VisitsUsed);
+        Assert.Equal(3, loadResult.Value[0].VisitsUsed);
     }
 }

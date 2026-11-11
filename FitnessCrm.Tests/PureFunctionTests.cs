@@ -60,13 +60,13 @@ public class PureFunctionTests
     public void CalculateBasePrice_StandardTwoMonths_Is50000()
     {
         var sub = new Subscription(1, 1, PlanType.Standard, Today, Today.AddDays(60), 0);
-        Assert.Equal(5000m, FitnessLogic.CalculateBasePrice(sub));
+        Assert.Equal(50000m, FitnessLogic.CalculateBasePrice(sub));
     }
 
     [Theory]
     [InlineData(0, 0)]
     [InlineData(49, 0)]    // boundary below
-    [InlineData(50, 15)]   // boundary
+    [InlineData(50, 10)]   // boundary
     [InlineData(99, 10)]
     [InlineData(100, 20)]  // boundary
     public void LoyaltyDiscount_Boundaries(int visits, int expectedPercent)
@@ -203,7 +203,7 @@ public class PureFunctionTests
 
     [Theory]
     [InlineData(-1, "Expired")]
-    [InlineData(0, "Active")]
+    [InlineData(0, "Expiring soon")]
     [InlineData(7, "Expiring soon")]
     [InlineData(8, "Active")]
     public void GetStatus_UsesDaysLeft(int endOffset, string expected)
