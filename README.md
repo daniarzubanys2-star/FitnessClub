@@ -3,14 +3,12 @@
 Console application in C# for the Introduction to Functional Programming final project.
 Clients buy subscriptions, visit the gym, renew, and the manager gets reports.
 
-- **Repository:** <paste URL here>
-- **Branch:** <branch>
-- **Final commit:** <commit id>
-- **Team:** <names, groups>
+- **Repository:** https://github.com/daniarzubanys2-star/FitnessClub.git
+- **Branch:** main
+- **Final commit:** <commit-id>
+- **Team:** Zhubanysh Daniyar, Group IT-2505
 
-## AI use acknowledgement
-<Write here, in your own words: the instructor permitted AI use for this project; which parts
-were generated with AI (Claude by Anthropic), what you changed or wrote yourself, and the date.>
+
 
 ## Requirements
 - .NET SDK 8.0 (check with `dotnet --version`). For a newer SDK change `TargetFramework`
