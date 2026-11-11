@@ -1,0 +1,8 @@
+[
+  { "Id": 1, "ClientId": 1, "Plan": "Basic",    "StartDate": "2026-10-15", "EndDate": "2026-11-14", "VisitsUsed": 6 },
+  { "Id": 2, "ClientId": 2, "Plan": "Premium",  "StartDate": "2026-08-10", "EndDate": "2027-02-06", "VisitsUsed": 70 },
+  { "Id": 3, "ClientId": 3, "Plan": "Standard", "StartDate": "2026-10-20", "EndDate": "2026-11-19", "VisitsUsed": 9 },
+  { "Id": 4, "ClientId": 4, "Plan": "Basic",    "StartDate": "2026-09-01", "EndDate": "2026-10-01", "VisitsUsed": 12 },
+  { "Id": 5, "ClientId": 5, "Plan": "Standard", "StartDate": "2026-10-10", "EndDate": "2026-11-09", "VisitsUsed": 14 },
+  { "Id": 6, "ClientId": 6, "Plan": "Basic",    "StartDate": "2026-10-10", "EndDate": "2026-11-09", "VisitsUsed": 1 }
+]

@@ -1,0 +1,8 @@
+[
+  { "Id": 1, "Name": "Aigerim Sadykova",  "Email": "aigerim@example.com", "Age": 21, "IsStudent": true,  "TotalVisits": 34 },
+  { "Id": 2, "Name": "Daniyar Omarov",    "Email": "daniyar@example.com", "Age": 29, "IsStudent": false, "TotalVisits": 120 },
+  { "Id": 3, "Name": "Madina Bekova",     "Email": "madina@example.com",  "Age": 24, "IsStudent": true,  "TotalVisits": 55 },
+  { "Id": 4, "Name": "Timur Akhmetov",    "Email": "timur@example.com",   "Age": 35, "IsStudent": false, "TotalVisits": 8 },
+  { "Id": 5, "Name": "Aruzhan Nurlanova", "Email": "aruzhan@example.com", "Age": 27, "IsStudent": false, "TotalVisits": 61 },
+  { "Id": 6, "Name": "Nurlan Serik",      "Email": "nurlan@example.com",  "Age": 41, "IsStudent": false, "TotalVisits": 0 }
+]
